@@ -11,6 +11,11 @@
 		CDCA6ED52A2CBC6B0065A6F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCA6ED42A2CBC6B0065A6F1 /* ContentView.swift */; };
 		CDCA6ED72A2CBC6D0065A6F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDCA6ED62A2CBC6D0065A6F1 /* Assets.xcassets */; };
 		CDCA6EDA2A2CBC6D0065A6F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDCA6ED92A2CBC6D0065A6F1 /* Preview Assets.xcassets */; };
+		CDCA6EE62A2CCA8A0065A6F1 /* DrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCA6EE52A2CCA8A0065A6F1 /* DrawerView.swift */; };
+		CDCA6EE82A2CCAAE0065A6F1 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCA6EE72A2CCAAE0065A6F1 /* ControlView.swift */; };
+		CDCA6EEA2A2CCAC90065A6F1 /* PannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCA6EE92A2CCAC90065A6F1 /* PannelView.swift */; };
+		CDCA6EEC2A2CCB580065A6F1 /* CoverData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCA6EEB2A2CCB580065A6F1 /* CoverData.swift */; };
+		CDCA6EEE2A2CCBA50065A6F1 /* Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCA6EED2A2CCBA50065A6F1 /* Cover.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		CDCA6ED62A2CBC6D0065A6F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDCA6ED92A2CBC6D0065A6F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDCA6EE02A2CC7F90065A6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CDCA6EE52A2CCA8A0065A6F1 /* DrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerView.swift; sourceTree = "<group>"; };
+		CDCA6EE72A2CCAAE0065A6F1 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		CDCA6EE92A2CCAC90065A6F1 /* PannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PannelView.swift; sourceTree = "<group>"; };
+		CDCA6EEB2A2CCB580065A6F1 /* CoverData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverData.swift; sourceTree = "<group>"; };
+		CDCA6EED2A2CCBA50065A6F1 /* Cover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,11 @@
 		CDCA6ED12A2CBC6B0065A6F1 /* Nat-Geo */ = {
 			isa = PBXGroup;
 			children = (
+				CDCA6EE42A2CCA480065A6F1 /* Data */,
+				CDCA6EE32A2CCA2D0065A6F1 /* model */,
+				CDCA6EE22A2CCA160065A6F1 /* component */,
 				CDCA6EE02A2CC7F90065A6F1 /* Info.plist */,
-				CDCA6ED22A2CBC6B0065A6F1 /* Nat_GeoApp.swift */,
-				CDCA6ED42A2CBC6B0065A6F1 /* ContentView.swift */,
+				CDCA6EE12A2CC9490065A6F1 /* Views */,
 				CDCA6ED62A2CBC6D0065A6F1 /* Assets.xcassets */,
 				CDCA6ED82A2CBC6D0065A6F1 /* Preview Content */,
 			);
@@ -67,6 +79,41 @@
 				CDCA6ED92A2CBC6D0065A6F1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDCA6EE12A2CC9490065A6F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDCA6ED22A2CBC6B0065A6F1 /* Nat_GeoApp.swift */,
+				CDCA6ED42A2CBC6B0065A6F1 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDCA6EE22A2CCA160065A6F1 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				CDCA6EE52A2CCA8A0065A6F1 /* DrawerView.swift */,
+				CDCA6EE72A2CCAAE0065A6F1 /* ControlView.swift */,
+				CDCA6EE92A2CCAC90065A6F1 /* PannelView.swift */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		CDCA6EE32A2CCA2D0065A6F1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CDCA6EED2A2CCBA50065A6F1 /* Cover.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CDCA6EE42A2CCA480065A6F1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CDCA6EEB2A2CCB580065A6F1 /* CoverData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +186,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDCA6EEA2A2CCAC90065A6F1 /* PannelView.swift in Sources */,
+				CDCA6EEC2A2CCB580065A6F1 /* CoverData.swift in Sources */,
+				CDCA6EE82A2CCAAE0065A6F1 /* ControlView.swift in Sources */,
+				CDCA6EE62A2CCA8A0065A6F1 /* DrawerView.swift in Sources */,
+				CDCA6EEE2A2CCBA50065A6F1 /* Cover.swift in Sources */,
 				CDCA6ED52A2CBC6B0065A6F1 /* ContentView.swift in Sources */,
 				CDCA6ED32A2CBC6B0065A6F1 /* Nat_GeoApp.swift in Sources */,
 			);
